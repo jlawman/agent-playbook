@@ -4,7 +4,7 @@
   "description": "AI-powered agent playbook generator CLI",
   "main": "dist/index.js",
   "bin": {
-    "agent-playbook": "./dist/index.js"
+    "agent-playbook": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -30,7 +30,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jlawman/agent-playbook.git"
+    "url": "git+https://github.com/jlawman/agent-playbook.git"
   },
   "bugs": {
     "url": "https://github.com/jlawman/agent-playbook/issues"

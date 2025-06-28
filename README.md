@@ -4,6 +4,7 @@ Transform your ideas into comprehensive AI agent playbooks using AI-guided disco
 
 <p align="center">
   <a href="https://www.npmjs.com/package/agent-playbook"><img src="https://img.shields.io/npm/v/agent-playbook.svg" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/agent-playbook"><img src="https://img.shields.io/npm/dm/agent-playbook.svg" alt="npm downloads"></a>
   <img src="https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen" alt="Node Version">
   <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
   <img src="https://img.shields.io/badge/TypeScript-5.6-blue" alt="TypeScript">
