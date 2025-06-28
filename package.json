@@ -1,6 +1,6 @@
 {
   "name": "agent-playbook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI-powered agent playbook generator CLI",
   "main": "dist/index.js",
   "bin": {
@@ -39,6 +39,11 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "@anthropic-ai/sdk": "^0.27.2",
     "@google/generative-ai": "^0.24.0",

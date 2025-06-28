@@ -1,0 +1,16 @@
+# Source files (already built to dist)
+src/
+tsconfig.json
+tsconfig.tsbuildinfo
+
+# Development files
+.git/
+.gitignore
+node_modules/
+npm-debug.log*
+
+# Example outputs (keep these)
+# example-outputs/
+
+# Build artifacts we want to keep
+# dist/
