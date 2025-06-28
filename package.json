@@ -1,0 +1,67 @@
+{
+  "name": "agent-playbook",
+  "version": "1.0.0",
+  "description": "AI-powered agent playbook generator CLI",
+  "main": "dist/index.js",
+  "bin": {
+    "agent-playbook": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "prepare": "npm run build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\"",
+    "precommit": "npm run typecheck && npm run lint && npm run format:check"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "agent",
+    "playbook",
+    "ai-agents",
+    "workflow"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlawman/agent-playbook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jlawman/agent-playbook/issues"
+  },
+  "homepage": "https://github.com/jlawman/agent-playbook#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.2",
+    "@google/generative-ai": "^0.24.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "conf": "^13.0.0",
+    "inquirer": "^9.2.15",
+    "ora": "^8.0.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.16.11",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module"
+}
